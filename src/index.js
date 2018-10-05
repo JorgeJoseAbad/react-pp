@@ -1,16 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
-
-
-const App = () =>(
-    <p>Hello React</p>
-)
+import ReactDOM from 'react-dom';
+import {App} from './App';
 
 ReactDOM.render(
-    <App/>,
+    <App title="Welcome to React"/>,
     document.getElementById('root')
 );
-
 
 // Hot Module Replacement
 if (module.hot) {
