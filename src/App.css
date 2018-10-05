@@ -1,0 +1,14 @@
+.item{
+  border: 1px solid red;
+  margin-top:5px;
+  padding: 5px;
+
+  max-width: 200px;
+}
+
+.my-img{
+  border: 2px solid blue;
+  border-radius: 100px;
+  box-shadow: 14px 5px 11px 4px #372e58;
+
+}
